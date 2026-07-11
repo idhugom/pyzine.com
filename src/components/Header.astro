@@ -1,0 +1,96 @@
+---
+interface TickerItem { title: string; slug: string }
+interface Props { ticker?: TickerItem[]; current?: string }
+const { ticker = [], current = '' } = Astro.props;
+const nav = [
+  { label: 'Accueil', href: '/' },
+  { label: 'Le mag', href: '/articles' },
+  { label: 'À propos', href: '/a-propos' },
+];
+// duplicate the list so the marquee loops seamlessly (translateX -50%)
+const loop = [...ticker, ...ticker];
+---
+<header class="masthead" id="masthead">
+  <div class="wrap masthead__bar">
+    <a href="/" class="brand" aria-label="Pyzine — accueil">
+      <img src="/logo-light.png" width="237" height="148" alt="Pyzine" />
+    </a>
+    <nav class="masthead__nav" aria-label="Navigation principale">
+      {nav.map((n) => (
+        <a href={n.href} aria-current={current === n.href ? 'page' : undefined}>{n.label}</a>
+      ))}
+      <a class="masthead__cta" href="#newsletter">
+        S'abonner
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+      </a>
+    </nav>
+    <button class="burger" id="burger" aria-label="Ouvrir le menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+
+  {ticker.length > 0 && (
+    <div class="ticker" aria-hidden="true">
+      <div class="ticker__label">À la une</div>
+      <div class="ticker__viewport">
+        <div class="ticker__track">
+          {loop.map((t) => (
+            <a class="ticker__item" href={`/${t.slug}`}>{t.title}</a>
+          ))}
+        </div>
+      </div>
+    </div>
+  )}
+</header>
+
+<div class="drawer" id="drawer">
+  <button class="drawer__close" id="drawerClose" aria-label="Fermer">✕</button>
+  {nav.map((n) => <a href={n.href}>{n.label}</a>)}
+  <a href="#newsletter" class="drawer-cta" style="color:var(--accent)">S'abonner →</a>
+</div>
+
+<div class="cursor-dot" id="cursorDot" aria-hidden="true"></div>
+
+<script>
+  // Masthead shrink on scroll
+  const mh = document.getElementById('masthead');
+  const onScroll = () => mh?.classList.toggle('shrink', window.scrollY > 40);
+  onScroll();
+  window.addEventListener('scroll', onScroll, { passive: true });
+
+  // Mobile drawer
+  const burger = document.getElementById('burger');
+  const drawer = document.getElementById('drawer');
+  const close = document.getElementById('drawerClose');
+  const toggle = (open: boolean) => {
+    drawer?.classList.toggle('open', open);
+    burger?.setAttribute('aria-expanded', String(open));
+    document.body.style.overflow = open ? 'hidden' : '';
+  };
+  burger?.addEventListener('click', () => toggle(true));
+  close?.addEventListener('click', () => toggle(false));
+  drawer?.querySelectorAll('a').forEach((a) => a.addEventListener('click', () => toggle(false)));
+
+  // Accent cursor dot (desktop, respects reduced motion)
+  const dot = document.getElementById('cursorDot');
+  const reduce = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  const fine = window.matchMedia('(hover: hover) and (pointer: fine)').matches;
+  if (dot && fine && !reduce) {
+    let x = 0, y = 0, cx = 0, cy = 0;
+    window.addEventListener('mousemove', (e) => {
+      x = e.clientX; y = e.clientY; dot.classList.add('on');
+    });
+    const raf = () => {
+      cx += (x - cx) * 0.18; cy += (y - cy) * 0.18;
+      dot.style.left = cx + 'px'; dot.style.top = cy + 'px';
+      requestAnimationFrame(raf);
+    };
+    requestAnimationFrame(raf);
+    const grow = () => dot.classList.add('grow');
+    const shrink = () => dot.classList.remove('grow');
+    document.querySelectorAll('a, button, summary').forEach((el) => {
+      el.addEventListener('mouseenter', grow);
+      el.addEventListener('mouseleave', shrink);
+    });
+  }
+</script>

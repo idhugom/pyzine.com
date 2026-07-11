@@ -1,0 +1,16 @@
+---
+import Base from '../layouts/Base.astro';
+---
+<Base title="Page introuvable — Pyzine" description="Cette page n'existe pas ou a été déplacée." noTicker>
+  <section class="wrap" style="min-height:60vh;display:grid;place-items:center;text-align:center;padding-block:5rem">
+    <div>
+      <div class="display" style="font-size:clamp(6rem,20vw,13rem);color:var(--accent);line-height:.9">404</div>
+      <h1 class="display" style="font-size:clamp(1.8rem,4vw,2.8rem);margin-top:.5rem">Cette page s'est évaporée.</h1>
+      <p class="lede" style="margin:1rem auto 2rem;max-width:44ch">Le lien est peut-être ancien. Revenez à l'accueil ou explorez le mag.</p>
+      <div style="display:flex;gap:.8rem;justify-content:center;flex-wrap:wrap">
+        <a href="/" class="btn btn--accent">Accueil</a>
+        <a href="/articles" class="btn btn--ghost">Tous les articles</a>
+      </div>
+    </div>
+  </section>
+</Base>

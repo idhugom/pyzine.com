@@ -1,0 +1,38 @@
+---
+const year = 2026;
+---
+<footer class="footer" id="newsletter">
+  <div class="wrap">
+    <div class="footer__top">
+      <div class="footer__brand">
+        <img src="/logo-light.png" width="237" height="148" alt="Pyzine" />
+        <p style="max-width:34ch">Le mag qui décrypte, explore et raconte. Des articles fouillés, vérifiés et utiles — sans le bruit.</p>
+        <form class="nl" onsubmit="return false" aria-label="Newsletter">
+          <input type="email" placeholder="Votre e-mail" aria-label="Votre e-mail" />
+          <button type="submit">Rejoindre</button>
+        </form>
+      </div>
+      <div>
+        <h4>Explorer</h4>
+        <ul>
+          <li><a href="/">Accueil</a></li>
+          <li><a href="/articles">Tous les articles</a></li>
+          <li><a href="/a-propos">À propos</a></li>
+          <li><a href="/rss.xml">Flux RSS</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Suivre</h4>
+        <ul>
+          <li><a href="https://www.pyzine.com" rel="noopener">Le site</a></li>
+          <li><a href="/rss.xml">S'abonner au flux</a></li>
+          <li><a href="#newsletter">Newsletter</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer__bottom">
+      <span>© {year} <span class="footer__accent">Pyzine</span> — Le mag. Tous droits réservés.</span>
+      <span>Fait avec soin · Moteur éditorial statique</span>
+    </div>
+  </div>
+</footer>

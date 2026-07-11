@@ -1,0 +1,31 @@
+{
+  "name": "pyzine",
+  "type": "module",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Pyzine — Le mag. Moteur éditorial statique haute performance.",
+  "scripts": {
+    "dev": "astro dev",
+    "build": "astro build && node scripts/postbuild.mjs",
+    "preview": "astro preview",
+    "astro": "astro",
+    "wp:fetch": "node scripts/fetch-wp.mjs",
+    "wp:images": "node scripts/download-images.mjs",
+    "ai:build-batch": "node scripts/build-batch.mjs",
+    "ai:submit": "node scripts/submit-batch.mjs",
+    "ai:ingest": "node scripts/ingest-batch.mjs",
+    "ai:pilot": "node scripts/gen-sync.mjs",
+    "ai:images": "node scripts/gen-images.mjs",
+    "deploy": "npm run build && wrangler pages deploy dist --project-name=pyzine --branch=main --commit-dirty=true"
+  },
+  "devDependencies": {
+    "wrangler": "^4.42.0"
+  },
+  "dependencies": {
+    "astro": "^5.6.1",
+    "@astrojs/mdx": "^4.2.3",
+    "@astrojs/rss": "^4.0.11",
+    "@astrojs/sitemap": "^3.3.0",
+    "sharp": "^0.34.1"
+  }
+}

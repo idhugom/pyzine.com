@@ -1,0 +1,111 @@
+---
+import '../styles/global.css';
+import '../styles/components.css';
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+import { getCollection } from 'astro:content';
+
+interface Props {
+  title: string;
+  description: string;
+  image?: string | null;
+  canonical?: string;
+  type?: 'website' | 'article';
+  current?: string;
+  jsonLd?: Record<string, any> | Record<string, any>[];
+  noTicker?: boolean;
+}
+
+const {
+  title,
+  description,
+  image = null,
+  type = 'website',
+  current = '',
+  jsonLd,
+  noTicker = false,
+} = Astro.props;
+
+const canonical = Astro.props.canonical ?? new URL(Astro.url.pathname, Astro.site).href.replace(/\/$/, '');
+const ogImage = image ? new URL(image, Astro.site).href : new URL('/og-default.png', Astro.site).href;
+const fullTitle = title.includes('Pyzine') ? title : `${title} · Pyzine`;
+
+// Ticker: latest 10 headlines
+let ticker: { title: string; slug: string }[] = [];
+if (!noTicker) {
+  const all = await getCollection('articles');
+  ticker = all
+    .sort((a, b) => +b.data.date - +a.data.date)
+    .slice(0, 10)
+    .map((a) => ({ title: a.data.title, slug: a.data.slug }));
+}
+
+const jsonLdArray = jsonLd ? (Array.isArray(jsonLd) ? jsonLd : [jsonLd]) : [];
+---
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+    <link rel="apple-touch-icon" href="/l.png" />
+    <link rel="canonical" href={canonical} />
+    <meta name="theme-color" content="#000000" />
+    <title>{fullTitle}</title>
+    <meta name="description" content={description} />
+    <meta name="robots" content="index, follow, max-image-preview:large" />
+
+    <link rel="preload" href="/fonts/inter.woff2" as="font" type="font/woff2" crossorigin />
+    <link rel="preload" href="/fonts/instrument-regular.woff2" as="font" type="font/woff2" crossorigin />
+
+    <!-- Open Graph -->
+    <meta property="og:type" content={type} />
+    <meta property="og:site_name" content="Pyzine" />
+    <meta property="og:title" content={fullTitle} />
+    <meta property="og:description" content={description} />
+    <meta property="og:url" content={canonical} />
+    <meta property="og:image" content={ogImage} />
+    <meta property="og:locale" content="fr_FR" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content={fullTitle} />
+    <meta name="twitter:description" content={description} />
+    <meta name="twitter:image" content={ogImage} />
+
+    <link rel="alternate" type="application/rss+xml" title="Pyzine — Le mag" href="/rss.xml" />
+    <link rel="sitemap" href="/sitemap-index.xml" />
+
+    {jsonLdArray.map((data) => (
+      <script type="application/ld+json" set:html={JSON.stringify(data)} />
+    ))}
+  </head>
+  <body>
+    <a href="#main" class="skip-link" style="position:absolute;left:-999px;top:0;background:#000;color:#fff;padding:.6rem 1rem;z-index:999" onfocus="this.style.left='0'" onblur="this.style.left='-999px'">Aller au contenu</a>
+    <Header ticker={ticker} current={current} />
+    <main id="main">
+      <slot />
+    </main>
+    <Footer />
+
+    <script>
+      // Scroll-reveal via IntersectionObserver
+      const reduce = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+      const els = document.querySelectorAll('.reveal');
+      if (reduce || !('IntersectionObserver' in window)) {
+        els.forEach((el) => el.classList.add('in'));
+      } else {
+        const io = new IntersectionObserver(
+          (entries) => {
+            for (const e of entries) {
+              if (e.isIntersecting) {
+                e.target.classList.add('in');
+                io.unobserve(e.target);
+              }
+            }
+          },
+          { rootMargin: '0px 0px -8% 0px', threshold: 0.08 }
+        );
+        els.forEach((el) => io.observe(el));
+      }
+    </script>
+  </body>
+</html>

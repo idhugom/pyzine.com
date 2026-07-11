@@ -1,0 +1,107 @@
+---
+import { getCollection } from 'astro:content';
+import Base from '../layouts/Base.astro';
+import { formatDate, readingLabel } from '../lib/format';
+
+const all = (await getCollection('articles')).sort((a, b) => +b.data.date - +a.data.date);
+const topics = [...new Set(all.flatMap((a) => a.data.topics ?? []))].sort().slice(0, 14);
+---
+<Base
+  title="Tous les articles — Pyzine"
+  description={`Explorez les ${all.length} articles de Pyzine : tech, culture, voyages, art de vivre. Recherchez et filtrez à la volée.`}
+  current="/articles"
+>
+  <section class="wrap" style="padding-top:clamp(2rem,5vw,3.5rem)">
+    <span class="kicker reveal">Le mag · {all.length} articles</span>
+    <h1 class="display reveal" data-delay="1" style="font-size:clamp(2.6rem,7vw,5rem);margin-top:.6rem">Tout explorer.</h1>
+    <p class="lede reveal" data-delay="2" style="margin-top:1rem;max-width:56ch">Cherchez un sujet, filtrez par thème, laissez-vous porter. Chaque article est pensé pour répondre vraiment à votre question.</p>
+
+    <div class="filters reveal" data-delay="2" style="margin-top:2.2rem;display:flex;flex-direction:column;gap:1.2rem">
+      <div style="position:relative;max-width:520px">
+        <svg style="position:absolute;left:1rem;top:50%;transform:translateY(-50%);color:var(--ink-3)" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="11" cy="11" r="7"/><path d="M21 21l-4.3-4.3"/></svg>
+        <input id="search" type="search" placeholder="Rechercher un article…" aria-label="Rechercher"
+          style="width:100%;padding:.95rem 1rem .95rem 2.8rem;border:1px solid var(--line);border-radius:999px;font-family:inherit;font-size:1rem;outline:none;transition:border-color .2s"
+          onfocus="this.style.borderColor='var(--accent)'" onblur="this.style.borderColor='var(--line)'" />
+      </div>
+      {topics.length > 1 && (
+        <div id="chips" style="display:flex;flex-wrap:wrap;gap:.5rem">
+          <button class="chip active" data-topic="" type="button">Tout</button>
+          {topics.map((t) => <button class="chip" data-topic={t} type="button">{t}</button>)}
+        </div>
+      )}
+    </div>
+
+    <p id="count" style="margin-top:1.6rem;color:var(--ink-3);font-size:.88rem"></p>
+
+    <div id="grid" class="mosaic" style="margin-top:1rem;padding-bottom:3rem">
+      {all.map((a) => (
+        <article class="card js-card" data-title={a.data.title.toLowerCase()} data-topics={(a.data.topics ?? []).join('|').toLowerCase()}>
+          <a class="card__link" href={`/${a.data.slug}`} aria-label={a.data.title}></a>
+          <div class="card__media">
+            {a.data.image ? (
+              <img src={a.data.image.src} alt={a.data.image.alt || a.data.title} width="800" height="533" loading="lazy" decoding="async" />
+            ) : (
+              <div style="width:100%;height:100%;display:grid;place-items:center;background:var(--accent-050);color:var(--accent-600);font-family:var(--font-display);font-size:2rem">Pyzine</div>
+            )}
+            <span class="card__tag">{a.data.topics?.[0] ?? 'Le mag'}</span>
+          </div>
+          <h3 class="card__title">{a.data.title}</h3>
+          <div class="card__meta">
+            <time datetime={a.data.date.toISOString()}>{formatDate(a.data.date)}</time>
+            <span class="dot"></span><span>{readingLabel(a.data.readingTime)}</span>
+          </div>
+        </article>
+      ))}
+    </div>
+    <p id="empty" style="display:none;text-align:center;color:var(--ink-3);padding:3rem 0">Aucun article ne correspond. Essayez un autre mot-clé.</p>
+  </section>
+
+  <style>
+    .chip { border:1px solid var(--line); background:#fff; color:var(--ink-2); padding:.5em 1em; border-radius:999px; font:inherit; font-size:.85rem; cursor:pointer; transition:all .2s var(--ease); }
+    .chip:hover { border-color:var(--accent); color:var(--accent-600); }
+    .chip.active { background:var(--ink); color:#fff; border-color:var(--ink); }
+    #grid .card { grid-column: span 4; }
+    @media (max-width:900px){ #grid .card{ grid-column: span 6; } }
+    @media (max-width:560px){ #grid .card{ grid-column: span 12; } }
+  </style>
+
+  <script is:inline>
+    (function () {
+      var search = document.getElementById('search');
+      var chips = Array.from(document.querySelectorAll('.chip'));
+      var cards = Array.from(document.querySelectorAll('.js-card'));
+      var count = document.getElementById('count');
+      var empty = document.getElementById('empty');
+      var topic = '';
+      // preselect from ?t=
+      var params = new URLSearchParams(location.search);
+      var q0 = params.get('q') || '';
+      var t0 = (params.get('t') || '').toLowerCase();
+      if (search && q0) search.value = q0;
+      if (t0) { topic = t0; chips.forEach(function(c){ c.classList.toggle('active', (c.dataset.topic||'').toLowerCase()===t0); }); }
+      function apply() {
+        var q = (search && search.value || '').trim().toLowerCase();
+        var shown = 0;
+        cards.forEach(function (c) {
+          var okQ = !q || c.dataset.title.indexOf(q) > -1 || (c.dataset.topics||'').indexOf(q) > -1;
+          var okT = !topic || (c.dataset.topics||'').split('|').indexOf(topic) > -1;
+          var vis = okQ && okT;
+          c.style.display = vis ? '' : 'none';
+          if (vis) shown++;
+        });
+        if (count) count.textContent = shown + ' article' + (shown>1?'s':'');
+        if (empty) empty.style.display = shown ? 'none' : 'block';
+      }
+      if (search) search.addEventListener('input', apply);
+      chips.forEach(function (c) {
+        c.addEventListener('click', function () {
+          topic = (c.dataset.topic || '').toLowerCase();
+          chips.forEach(function (x) { x.classList.remove('active'); });
+          c.classList.add('active');
+          apply();
+        });
+      });
+      apply();
+    })();
+  </script>
+</Base>

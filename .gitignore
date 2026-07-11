@@ -1,0 +1,21 @@
+# dependencies
+node_modules/
+
+# build output
+dist/
+.astro/
+
+# batch working files — requests.jsonl is large & regenerable; state.json is
+# committed so any session can resume `npm run ai:ingest`.
+data/batch/requests.jsonl
+
+# os / editor
+.DS_Store
+*.log
+npm-debug.log*
+
+# env
+.env
+.env.*
+!.env.example
+.dev.vars
