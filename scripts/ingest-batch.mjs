@@ -56,7 +56,11 @@ if (batch.output_file_id) {
       const body = row.response?.body;
       if (!body || row.response?.status_code >= 400) throw new Error(`status ${row.response?.status_code}`);
       const gen = JSON.parse(extractOutputText(body));
-      const image = await prepareFeaturedImage(post).catch(() => null);
+      // Images are handled separately (in parallel) by scripts/gen-images.mjs.
+      // Set SKIP_IMAGES=1 to write records fast with image=null, then run gen-images.
+      const image = process.env.SKIP_IMAGES === '1'
+        ? null
+        : await prepareFeaturedImage(post).catch(() => null);
       const record = toArticleRecord(post, gen, image);
       await writeFile(outPath, JSON.stringify(record, null, 2));
       written++;

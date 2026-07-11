@@ -52,8 +52,10 @@ for (const f of files) {
 }
 console.log(`${targets.length} article(s) without an image.`);
 
-let recovered = 0, generated = 0, failed = 0;
-for (const { file, data } of targets) {
+const CONCURRENCY = Number(process.env.IMG_CONCURRENCY || 4);
+let recovered = 0, generated = 0, failed = 0, done = 0;
+
+async function handle({ file, data }) {
   const post = bySlug.get(data.slug) || { slug: data.slug, title: data.title, image: null };
   // 1) retry original
   try {
@@ -62,8 +64,7 @@ for (const { file, data } of targets) {
       data.image = orig;
       await writeFile(new URL(file, ART_DIR), JSON.stringify(data, null, 2));
       recovered++;
-      console.log(`  ♻  ${data.slug} — recovered original image`);
-      continue;
+      return;
     }
   } catch {}
   // 2) generate
@@ -76,10 +77,21 @@ for (const { file, data } of targets) {
     data.image = { src: rel, width: meta.width, height: meta.height, alt: data.title, generated: true };
     await writeFile(new URL(file, ART_DIR), JSON.stringify(data, null, 2));
     generated++;
-    console.log(`  🎨 ${data.slug} — generated (gpt-image-2)`);
   } catch (e) {
     failed++;
     console.warn(`  ❌ ${data.slug}: ${e.message}`);
   }
 }
+
+async function worker(queue) {
+  while (queue.length) {
+    const item = queue.shift();
+    await handle(item);
+    done++;
+    if (done % 20 === 0) console.log(`  …${done}/${targets.length} (recovered ${recovered}, generated ${generated}, failed ${failed})`);
+  }
+}
+
+const queue = [...targets];
+await Promise.all(Array.from({ length: CONCURRENCY }, () => worker(queue)));
 console.log(`\nDone. recovered=${recovered} generated=${generated} failed=${failed}`);
