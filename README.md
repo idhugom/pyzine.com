@@ -68,10 +68,12 @@ DNS non encore basculé (préprod le temps de valider). Une fois prêt :
 1. Cloudflare Pages → projet `pyzine` → **Custom domains** → ajouter
    `www.pyzine.com` **et** `pyzine.com`.
 2. Créer les enregistrements DNS (CNAME `www` → `pyzine.pages.dev`, et l'apex via
-   CNAME flattening / redirection).
-3. La redirection **apex → www** et les **301 `.php` → URL propre** sont déjà
-   écrites dans `dist/_redirects` (générées au build). Elles s'activent dès que les
-   deux domaines sont rattachés.
+   CNAME flattening).
+3. Les **301 `.php` → URL propre** sont déjà dans `dist/_redirects` (générées au
+   build, 625 règles) et actives immédiatement.
+4. La redirection **apex → www** se fait via une **Redirect Rule** Cloudflare
+   (Rules → Redirect Rules) : « si hostname = `pyzine.com` → `https://www.pyzine.com/${uri.path}` (301) ».
+   (Elle n'est PAS dans `_redirects` : les sources y sont des chemins, pas des URLs absolues.)
 
 > Réglages build (si vous préférez l'intégration Git native du dashboard plutôt
 > que GitHub Actions) : Branche `main` · Build `npm run build` · Sortie `dist` ·
