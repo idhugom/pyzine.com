@@ -48,6 +48,12 @@
     }
   ],
   "readingTime": 11,
-  "image": null,
+  "image": {
+    "src": "/images/posts/quels-defis-techniques-peut-on-rencontrer-lors-de-linstallation-dune-thermopompe.webp",
+    "width": 1600,
+    "height": 1066,
+    "alt": "Quels défis techniques peut-on rencontrer lors de l’installation d’une thermopompe?",
+    "generated": false
+  },
   "featured": false
 }

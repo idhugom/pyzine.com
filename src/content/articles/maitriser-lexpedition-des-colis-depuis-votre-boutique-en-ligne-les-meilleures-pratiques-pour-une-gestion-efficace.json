@@ -48,6 +48,12 @@
     }
   ],
   "readingTime": 12,
-  "image": null,
+  "image": {
+    "src": "/images/posts/maitriser-lexpedition-des-colis-depuis-votre-boutique-en-ligne-les-meilleures-pratiques-pour-une-gestion-efficace.webp",
+    "width": 1344,
+    "height": 896,
+    "alt": "Maîtriser l’expédition des colis depuis votre boutique en ligne : les meilleures pratiques pour une gestion efficace",
+    "generated": false
+  },
   "featured": false
 }

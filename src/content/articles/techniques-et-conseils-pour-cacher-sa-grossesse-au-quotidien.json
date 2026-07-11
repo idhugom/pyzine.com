@@ -44,6 +44,12 @@
     }
   ],
   "readingTime": 11,
-  "image": null,
+  "image": {
+    "src": "/images/posts/techniques-et-conseils-pour-cacher-sa-grossesse-au-quotidien.webp",
+    "width": 1344,
+    "height": 896,
+    "alt": "Techniques et conseils pour cacher sa grossesse au quotidien",
+    "generated": false
+  },
   "featured": false
 }

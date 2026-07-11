@@ -48,6 +48,12 @@
     }
   ],
   "readingTime": 12,
-  "image": null,
+  "image": {
+    "src": "/images/posts/quels-sont-les-endroits-ideaux-pour-la-chasse-et-peche-sous-marine.webp",
+    "width": 1344,
+    "height": 896,
+    "alt": "Quels sont les endroits idéaux pour la chasse et pêche sous-marine ?",
+    "generated": false
+  },
   "featured": false
 }

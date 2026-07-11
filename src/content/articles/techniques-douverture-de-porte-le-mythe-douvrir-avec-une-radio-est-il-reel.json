@@ -48,6 +48,12 @@
     }
   ],
   "readingTime": 10,
-  "image": null,
+  "image": {
+    "src": "/images/posts/techniques-douverture-de-porte-le-mythe-douvrir-avec-une-radio-est-il-reel.webp",
+    "width": 1344,
+    "height": 896,
+    "alt": "Techniques d’ouverture de porte : le mythe d’ouvrir avec une radio est-il réel ?",
+    "generated": false
+  },
   "featured": false
 }

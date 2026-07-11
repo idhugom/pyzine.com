@@ -48,6 +48,12 @@
     }
   ],
   "readingTime": 13,
-  "image": null,
+  "image": {
+    "src": "/images/posts/maitriser-lart-de-la-prononciation-conseils-pour-parler-clairement-et-correctement.webp",
+    "width": 1344,
+    "height": 896,
+    "alt": "Maîtriser l’art de la prononciation : conseils pour parler clairement et correctement",
+    "generated": false
+  },
   "featured": false
 }

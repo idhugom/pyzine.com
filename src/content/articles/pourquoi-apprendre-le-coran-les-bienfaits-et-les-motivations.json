@@ -48,6 +48,12 @@
     }
   ],
   "readingTime": 11,
-  "image": null,
+  "image": {
+    "src": "/images/posts/pourquoi-apprendre-le-coran-les-bienfaits-et-les-motivations.webp",
+    "width": 1344,
+    "height": 896,
+    "alt": "Pourquoi apprendre le Coran : les bienfaits et les motivations",
+    "generated": false
+  },
   "featured": false
 }

@@ -48,6 +48,12 @@
     }
   ],
   "readingTime": 13,
-  "image": null,
+  "image": {
+    "src": "/images/posts/sushi-su-comprendre-le-role-essentiel-du-vinaigre-dans-la-cuisine-japonaise.webp",
+    "width": 1344,
+    "height": 896,
+    "alt": "Sushi su: comprendre le rôle essentiel du vinaigre dans la cuisine japonaise",
+    "generated": false
+  },
   "featured": false
 }

@@ -44,6 +44,12 @@
     }
   ],
   "readingTime": 11,
-  "image": null,
+  "image": {
+    "src": "/images/posts/transfert-aise-reservez-votre-chauffeur-prive-pour-laeroport-de-geneve.webp",
+    "width": 1344,
+    "height": 896,
+    "alt": "Transfert aisé : réservez votre chauffeur privé pour l’aéroport de genève",
+    "generated": false
+  },
   "featured": false
 }

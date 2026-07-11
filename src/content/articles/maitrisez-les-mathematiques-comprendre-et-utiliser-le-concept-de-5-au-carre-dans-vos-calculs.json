@@ -48,6 +48,12 @@
     }
   ],
   "readingTime": 11,
-  "image": null,
+  "image": {
+    "src": "/images/posts/maitrisez-les-mathematiques-comprendre-et-utiliser-le-concept-de-5-au-carre-dans-vos-calculs.webp",
+    "width": 1344,
+    "height": 896,
+    "alt": "Maîtrisez les mathématiques: comprendre et utiliser le concept de 5 au carré dans vos calculs",
+    "generated": false
+  },
   "featured": false
 }

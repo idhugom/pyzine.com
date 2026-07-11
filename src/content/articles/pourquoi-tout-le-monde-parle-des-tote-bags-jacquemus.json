@@ -44,6 +44,12 @@
     }
   ],
   "readingTime": 10,
-  "image": null,
+  "image": {
+    "src": "/images/posts/pourquoi-tout-le-monde-parle-des-tote-bags-jacquemus.webp",
+    "width": 1344,
+    "height": 896,
+    "alt": "Pourquoi tout le monde parle des tote-bags Jacquemus ?",
+    "generated": false
+  },
   "featured": false
 }

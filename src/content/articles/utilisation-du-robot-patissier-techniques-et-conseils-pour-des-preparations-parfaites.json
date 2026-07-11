@@ -48,6 +48,12 @@
     }
   ],
   "readingTime": 14,
-  "image": null,
+  "image": {
+    "src": "/images/posts/utilisation-du-robot-patissier-techniques-et-conseils-pour-des-preparations-parfaites.webp",
+    "width": 1344,
+    "height": 896,
+    "alt": "Utilisation du robot pâtissier: techniques et conseils pour des préparations parfaites",
+    "generated": false
+  },
   "featured": false
 }

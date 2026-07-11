@@ -48,6 +48,12 @@
     }
   ],
   "readingTime": 12,
-  "image": null,
+  "image": {
+    "src": "/images/posts/quels-sont-les-criteres-a-prendre-en-compte-pour-choisir-un-vin-adapte-a-un-repas.webp",
+    "width": 1600,
+    "height": 1067,
+    "alt": "Quels sont les critères à prendre en compte pour choisir un vin adapté à un repas ?",
+    "generated": false
+  },
   "featured": false
 }

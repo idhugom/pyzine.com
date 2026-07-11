@@ -48,6 +48,12 @@
     }
   ],
   "readingTime": 10,
-  "image": null,
+  "image": {
+    "src": "/images/posts/remboursement-phytotherapie-animaux.webp",
+    "width": 1536,
+    "height": 1024,
+    "alt": "Mutuelle animaux remboursement phytothérapie : quelles solutions pour les traitements naturels ?",
+    "generated": true
+  },
   "featured": false
 }

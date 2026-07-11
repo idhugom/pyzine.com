@@ -48,6 +48,12 @@
     }
   ],
   "readingTime": 12,
-  "image": null,
+  "image": {
+    "src": "/images/posts/location-vtc-sans-engagement.webp",
+    "width": 1536,
+    "height": 1024,
+    "alt": "Location voiture VTC sans engagement : Voiture VTC à louer sans engagement pour activité flexible",
+    "generated": true
+  },
   "featured": false
 }

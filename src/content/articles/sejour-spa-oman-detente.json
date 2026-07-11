@@ -48,6 +48,12 @@
     }
   ],
   "readingTime": 12,
-  "image": null,
+  "image": {
+    "src": "/images/posts/sejour-spa-oman-detente.webp",
+    "width": 1536,
+    "height": 1024,
+    "alt": "Séjour avec spa à Oman : détente absolue dans un cadre somptueux",
+    "generated": true
+  },
   "featured": false
 }

@@ -44,6 +44,12 @@
     }
   ],
   "readingTime": 11,
-  "image": null,
+  "image": {
+    "src": "/images/posts/quel-est-le-meilleur-drone-sous-marin-pour-les-operations-de-recherche-et-sauvetage-en-eau-profonde.webp",
+    "width": 1344,
+    "height": 896,
+    "alt": "Quel est le meilleur drone sous-marin pour les opérations de recherche et sauvetage en eau profonde ?",
+    "generated": false
+  },
   "featured": false
 }

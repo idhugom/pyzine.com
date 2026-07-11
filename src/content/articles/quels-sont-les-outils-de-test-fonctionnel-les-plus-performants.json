@@ -48,6 +48,12 @@
     }
   ],
   "readingTime": 14,
-  "image": null,
+  "image": {
+    "src": "/images/posts/quels-sont-les-outils-de-test-fonctionnel-les-plus-performants.webp",
+    "width": 1500,
+    "height": 1000,
+    "alt": "Quels sont les outils de test fonctionnel les plus performants ?",
+    "generated": false
+  },
   "featured": false
 }

@@ -48,6 +48,12 @@
     }
   ],
   "readingTime": 11,
-  "image": null,
+  "image": {
+    "src": "/images/posts/quels-sont-les-pieges-des-homonymes-en-francais.webp",
+    "width": 1344,
+    "height": 896,
+    "alt": "Quels sont les pièges des homonymes en français ?",
+    "generated": false
+  },
   "featured": false
 }

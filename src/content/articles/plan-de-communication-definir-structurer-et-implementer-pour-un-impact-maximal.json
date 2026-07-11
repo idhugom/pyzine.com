@@ -48,6 +48,12 @@
     }
   ],
   "readingTime": 12,
-  "image": null,
+  "image": {
+    "src": "/images/posts/plan-de-communication-definir-structurer-et-implementer-pour-un-impact-maximal.webp",
+    "width": 1344,
+    "height": 896,
+    "alt": "Plan de communication : définir, structurer et implémenter pour un impact maximal",
+    "generated": false
+  },
   "featured": false
 }

@@ -48,6 +48,12 @@
     }
   ],
   "readingTime": 12,
-  "image": null,
+  "image": {
+    "src": "/images/posts/packshot-images-tiktok-smartphone.webp",
+    "width": 1344,
+    "height": 896,
+    "alt": "Packshot maison : réaliser des images produits optimisées TikTok Shop avec un smartphone",
+    "generated": false
+  },
   "featured": false
 }

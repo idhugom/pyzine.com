@@ -44,6 +44,12 @@
     }
   ],
   "readingTime": 10,
-  "image": null,
+  "image": {
+    "src": "/images/posts/quelle-est-la-signification-du-prenom-pierre.webp",
+    "width": 1344,
+    "height": 896,
+    "alt": "Quelle est la signification du prénom Pierre ?",
+    "generated": false
+  },
   "featured": false
 }

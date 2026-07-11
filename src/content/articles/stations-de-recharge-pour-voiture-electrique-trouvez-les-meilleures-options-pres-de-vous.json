@@ -44,6 +44,12 @@
     }
   ],
   "readingTime": 11,
-  "image": null,
+  "image": {
+    "src": "/images/posts/stations-de-recharge-pour-voiture-electrique-trouvez-les-meilleures-options-pres-de-vous.webp",
+    "width": 1344,
+    "height": 896,
+    "alt": "Stations de recharge pour voiture électrique : trouvez les meilleures options près de vous",
+    "generated": false
+  },
   "featured": false
 }

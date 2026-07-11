@@ -48,6 +48,12 @@
     }
   ],
   "readingTime": 12,
-  "image": null,
+  "image": {
+    "src": "/images/posts/ou-trouver-les-meilleures-offres-pour-acheter-une-cuisine-equipee-en-ligne.webp",
+    "width": 1600,
+    "height": 1066,
+    "alt": "Où trouver les meilleures offres pour acheter une cuisine équipée en ligne",
+    "generated": false
+  },
   "featured": false
 }

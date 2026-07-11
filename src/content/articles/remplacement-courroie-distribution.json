@@ -44,6 +44,12 @@
     }
   ],
   "readingTime": 13,
-  "image": null,
+  "image": {
+    "src": "/images/posts/remplacement-courroie-distribution.webp",
+    "width": 1536,
+    "height": 1024,
+    "alt": "Remplacement de la courroie de distribution en garage : coûts et services",
+    "generated": true
+  },
   "featured": false
 }

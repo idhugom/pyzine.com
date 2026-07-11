@@ -48,6 +48,12 @@
     }
   ],
   "readingTime": 12,
-  "image": null,
+  "image": {
+    "src": "/images/posts/pourquoi-choisir-un-sejour-linguistique-a-malte.webp",
+    "width": 1344,
+    "height": 896,
+    "alt": "Pourquoi choisir un séjour linguistique à Malte ?",
+    "generated": false
+  },
   "featured": false
 }

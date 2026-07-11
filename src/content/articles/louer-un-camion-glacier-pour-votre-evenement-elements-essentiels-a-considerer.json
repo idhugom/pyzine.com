@@ -44,6 +44,12 @@
     }
   ],
   "readingTime": 11,
-  "image": null,
+  "image": {
+    "src": "/images/posts/louer-un-camion-glacier-pour-votre-evenement-elements-essentiels-a-considerer.webp",
+    "width": 1344,
+    "height": 896,
+    "alt": "Louer un camion glacier pour votre evenement : éléments essentiels à considérer",
+    "generated": false
+  },
   "featured": false
 }

@@ -48,6 +48,12 @@
     }
   ],
   "readingTime": 13,
-  "image": null,
+  "image": {
+    "src": "/images/posts/retraite-decouverte-soi.webp",
+    "width": 1536,
+    "height": 1024,
+    "alt": "Retraite spirituelle pour la découverte de soi et l’éveil de la conscience",
+    "generated": true
+  },
   "featured": false
 }

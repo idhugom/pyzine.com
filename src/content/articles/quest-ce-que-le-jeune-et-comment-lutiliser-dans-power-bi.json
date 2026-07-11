@@ -48,6 +48,12 @@
     }
   ],
   "readingTime": 11,
-  "image": null,
+  "image": {
+    "src": "/images/posts/quest-ce-que-le-jeune-et-comment-lutiliser-dans-power-bi.webp",
+    "width": 1344,
+    "height": 896,
+    "alt": "Qu’est-ce que le jeûne et comment l’utiliser dans Power BI ?",
+    "generated": false
+  },
   "featured": false
 }

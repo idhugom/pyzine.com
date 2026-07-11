@@ -48,6 +48,12 @@
     }
   ],
   "readingTime": 10,
-  "image": null,
+  "image": {
+    "src": "/images/posts/quels-sont-les-avantages-dun-lit-enfant-en-bois-par-rapport-a-dautres-materiaux.webp",
+    "width": 1344,
+    "height": 896,
+    "alt": "Quels sont les avantages d’un lit enfant en bois par rapport à d’autres matériaux ?",
+    "generated": false
+  },
   "featured": false
 }

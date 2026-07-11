@@ -44,6 +44,12 @@
     }
   ],
   "readingTime": 11,
-  "image": null,
+  "image": {
+    "src": "/images/posts/quels-conseils-un-architecte-dinterieur-peut-il-donner-pour-lamenagement-dun-espace.webp",
+    "width": 1344,
+    "height": 896,
+    "alt": "Quels conseils un architecte d’intérieur peut-il donner pour l’aménagement d’un espace ?",
+    "generated": false
+  },
   "featured": false
 }

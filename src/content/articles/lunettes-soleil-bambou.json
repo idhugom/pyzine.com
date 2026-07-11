@@ -44,6 +44,12 @@
     }
   ],
   "readingTime": 11,
-  "image": null,
+  "image": {
+    "src": "/images/posts/lunettes-soleil-bambou.webp",
+    "width": 1536,
+    "height": 1024,
+    "alt": "Lunette de soleil en bois faite en bambou compressé : résistance et légèreté réunies",
+    "generated": true
+  },
   "featured": false
 }

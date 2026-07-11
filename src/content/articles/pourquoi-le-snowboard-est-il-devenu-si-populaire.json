@@ -44,6 +44,12 @@
     }
   ],
   "readingTime": 12,
-  "image": null,
+  "image": {
+    "src": "/images/posts/pourquoi-le-snowboard-est-il-devenu-si-populaire.webp",
+    "width": 1344,
+    "height": 896,
+    "alt": "Pourquoi le snowboard est-il devenu si populaire ?",
+    "generated": false
+  },
   "featured": false
 }

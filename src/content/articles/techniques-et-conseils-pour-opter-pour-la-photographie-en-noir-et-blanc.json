@@ -44,6 +44,12 @@
     }
   ],
   "readingTime": 12,
-  "image": null,
+  "image": {
+    "src": "/images/posts/techniques-et-conseils-pour-opter-pour-la-photographie-en-noir-et-blanc.webp",
+    "width": 1344,
+    "height": 896,
+    "alt": "Techniques et conseils pour opter pour la photographie en noir et blanc",
+    "generated": false
+  },
   "featured": false
 }

@@ -44,6 +44,12 @@
     }
   ],
   "readingTime": 10,
-  "image": null,
+  "image": {
+    "src": "/images/posts/rouler-une-pelle-astuces-et-erreurs-a-eviter-pour-un-moment-parfait.webp",
+    "width": 1344,
+    "height": 896,
+    "alt": "Rouler une pelle : astuces et erreurs à éviter pour un moment parfait",
+    "generated": false
+  },
   "featured": false
 }

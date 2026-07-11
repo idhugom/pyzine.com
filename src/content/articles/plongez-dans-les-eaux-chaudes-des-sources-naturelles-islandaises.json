@@ -48,6 +48,12 @@
     }
   ],
   "readingTime": 11,
-  "image": null,
+  "image": {
+    "src": "/images/posts/plongez-dans-les-eaux-chaudes-des-sources-naturelles-islandaises.webp",
+    "width": 1344,
+    "height": 896,
+    "alt": "Plongez dans les eaux chaudes des sources naturelles islandaises",
+    "generated": false
+  },
   "featured": false
 }

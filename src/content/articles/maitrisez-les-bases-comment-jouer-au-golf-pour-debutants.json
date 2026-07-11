@@ -47,6 +47,12 @@
     }
   ],
   "readingTime": 14,
-  "image": null,
+  "image": {
+    "src": "/images/posts/maitrisez-les-bases-comment-jouer-au-golf-pour-debutants.webp",
+    "width": 1344,
+    "height": 896,
+    "alt": "Maîtrisez les bases: comment jouer au golf pour débutants",
+    "generated": false
+  },
   "featured": false
 }

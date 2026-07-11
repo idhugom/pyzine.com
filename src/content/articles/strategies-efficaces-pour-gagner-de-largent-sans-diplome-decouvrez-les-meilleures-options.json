@@ -44,6 +44,12 @@
     }
   ],
   "readingTime": 11,
-  "image": null,
+  "image": {
+    "src": "/images/posts/strategies-efficaces-pour-gagner-de-largent-sans-diplome-decouvrez-les-meilleures-options.webp",
+    "width": 1344,
+    "height": 896,
+    "alt": "Stratégies efficaces pour gagner de l’argent sans diplôme : découvrez les meilleures options",
+    "generated": false
+  },
   "featured": false
 }

@@ -48,6 +48,12 @@
     }
   ],
   "readingTime": 11,
-  "image": null,
+  "image": {
+    "src": "/images/posts/mutuelle-sante-soignants.webp",
+    "width": 1536,
+    "height": 1024,
+    "alt": "Mutuelle santé pour professions médicales : quelles garanties spécifiques pour les soignants ?",
+    "generated": true
+  },
   "featured": false
 }

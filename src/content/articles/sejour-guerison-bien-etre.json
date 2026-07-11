@@ -44,6 +44,12 @@
     }
   ],
   "readingTime": 11,
-  "image": null,
+  "image": {
+    "src": "/images/posts/sejour-guerison-bien-etre.webp",
+    "width": 1536,
+    "height": 1024,
+    "alt": "Séjour de guérison spirituelle et bien-être mental : libération et sérénité retrouvées",
+    "generated": true
+  },
   "featured": false
 }

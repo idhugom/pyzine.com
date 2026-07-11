@@ -44,6 +44,12 @@
     }
   ],
   "readingTime": 12,
-  "image": null,
+  "image": {
+    "src": "/images/posts/tracer-une-nouvelle-voie-comment-oublier-le-passe-et-batir-son-bonheur-futur.webp",
+    "width": 1344,
+    "height": 896,
+    "alt": "Tracer une nouvelle voie : comment oublier le passé et bâtir son bonheur futur",
+    "generated": false
+  },
   "featured": false
 }

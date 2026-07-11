@@ -48,6 +48,12 @@
     }
   ],
   "readingTime": 11,
-  "image": null,
+  "image": {
+    "src": "/images/posts/pourquoi-carte-bleue-comprendre-lessor-et-limportance-de-ce-moyen-de-paiement-en-france.webp",
+    "width": 1344,
+    "height": 896,
+    "alt": "Pourquoi carte bleue : comprendre l’essor et l’importance de ce moyen de paiement en france",
+    "generated": false
+  },
   "featured": false
 }

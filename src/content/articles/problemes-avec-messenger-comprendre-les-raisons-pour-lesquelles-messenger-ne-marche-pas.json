@@ -44,6 +44,12 @@
     }
   ],
   "readingTime": 11,
-  "image": null,
+  "image": {
+    "src": "/images/posts/problemes-avec-messenger-comprendre-les-raisons-pour-lesquelles-messenger-ne-marche-pas.webp",
+    "width": 1344,
+    "height": 896,
+    "alt": "Problèmes avec messenger : comprendre les raisons pour lesquelles messenger ne marche pas",
+    "generated": false
+  },
   "featured": false
 }

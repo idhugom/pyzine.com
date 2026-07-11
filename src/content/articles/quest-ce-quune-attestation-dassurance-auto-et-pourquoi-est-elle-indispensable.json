@@ -48,6 +48,12 @@
     }
   ],
   "readingTime": 10,
-  "image": null,
+  "image": {
+    "src": "/images/posts/quest-ce-quune-attestation-dassurance-auto-et-pourquoi-est-elle-indispensable.webp",
+    "width": 1600,
+    "height": 1067,
+    "alt": "Qu’est-ce qu’une attestation d’assurance auto et pourquoi est-elle indispensable ?",
+    "generated": false
+  },
   "featured": false
 }

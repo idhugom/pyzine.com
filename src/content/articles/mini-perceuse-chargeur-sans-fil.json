@@ -44,6 +44,12 @@
     }
   ],
   "readingTime": 10,
-  "image": null,
+  "image": {
+    "src": "/images/posts/mini-perceuse-chargeur-sans-fil.webp",
+    "width": 1536,
+    "height": 1024,
+    "alt": "Mini perceuse avec chargeur sans fil : plus de liberté grâce à un système de recharge sans fil",
+    "generated": true
+  },
   "featured": false
 }

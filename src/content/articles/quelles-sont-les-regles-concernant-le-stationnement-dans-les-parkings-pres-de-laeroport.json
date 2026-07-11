@@ -44,6 +44,12 @@
     }
   ],
   "readingTime": 11,
-  "image": null,
+  "image": {
+    "src": "/images/posts/quelles-sont-les-regles-concernant-le-stationnement-dans-les-parkings-pres-de-laeroport.webp",
+    "width": 1344,
+    "height": 896,
+    "alt": "quelles sont les règles concernant le stationnement dans les parkings près de l’aéroport?",
+    "generated": false
+  },
   "featured": false
 }

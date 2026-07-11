@@ -48,6 +48,12 @@
     }
   ],
   "readingTime": 12,
-  "image": null,
+  "image": {
+    "src": "/images/posts/quelle-est-lhistoire-du-magret-fume-dans-la-cuisine-francaise.webp",
+    "width": 1600,
+    "height": 1066,
+    "alt": "Quelle est l’histoire du magret fumé dans la cuisine française ?",
+    "generated": false
+  },
   "featured": false
 }

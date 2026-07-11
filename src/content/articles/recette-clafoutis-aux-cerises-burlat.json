@@ -44,6 +44,12 @@
     }
   ],
   "readingTime": 9,
-  "image": null,
+  "image": {
+    "src": "/images/posts/recette-clafoutis-aux-cerises-burlat.webp",
+    "width": 1344,
+    "height": 896,
+    "alt": "Recette clafoutis aux cerises burlat",
+    "generated": false
+  },
   "featured": false
 }

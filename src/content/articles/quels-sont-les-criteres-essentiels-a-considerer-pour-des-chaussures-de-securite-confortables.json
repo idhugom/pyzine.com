@@ -48,6 +48,12 @@
     }
   ],
   "readingTime": 12,
-  "image": null,
+  "image": {
+    "src": "/images/posts/quels-sont-les-criteres-essentiels-a-considerer-pour-des-chaussures-de-securite-confortables.webp",
+    "width": 1600,
+    "height": 1066,
+    "alt": "Quels sont les critères essentiels à considérer pour des chaussures de sécurité confortables ?",
+    "generated": false
+  },
   "featured": false
 }

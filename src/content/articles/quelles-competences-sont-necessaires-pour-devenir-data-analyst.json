@@ -48,6 +48,12 @@
     }
   ],
   "readingTime": 11,
-  "image": null,
+  "image": {
+    "src": "/images/posts/quelles-competences-sont-necessaires-pour-devenir-data-analyst.webp",
+    "width": 1344,
+    "height": 896,
+    "alt": "Quelles compétences sont nécessaires pour devenir data analyst ?",
+    "generated": false
+  },
   "featured": false
 }

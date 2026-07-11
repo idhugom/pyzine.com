@@ -44,6 +44,12 @@
     }
   ],
   "readingTime": 12,
-  "image": null,
+  "image": {
+    "src": "/images/posts/quelles-sont-les-tendances-de-consommation-autour-du-foie-gras.webp",
+    "width": 1344,
+    "height": 896,
+    "alt": "Quelles sont les tendances de consommation autour du foie gras?",
+    "generated": false
+  },
   "featured": false
 }

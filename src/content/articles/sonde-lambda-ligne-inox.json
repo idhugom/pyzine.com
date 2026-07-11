@@ -48,6 +48,12 @@
     }
   ],
   "readingTime": 13,
-  "image": null,
+  "image": {
+    "src": "/images/posts/sonde-lambda-ligne-inox.webp",
+    "width": 1536,
+    "height": 1024,
+    "alt": "Installer une sonde lambda sur une ligne inox : conseils pratiques",
+    "generated": true
+  },
   "featured": false
 }

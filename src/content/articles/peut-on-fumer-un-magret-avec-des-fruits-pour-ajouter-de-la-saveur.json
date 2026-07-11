@@ -48,6 +48,12 @@
     }
   ],
   "readingTime": 12,
-  "image": null,
+  "image": {
+    "src": "/images/posts/peut-on-fumer-un-magret-avec-des-fruits-pour-ajouter-de-la-saveur.webp",
+    "width": 1600,
+    "height": 1066,
+    "alt": "Peut-on fumer un magret avec des fruits pour ajouter de la saveur ?",
+    "generated": false
+  },
   "featured": false
 }

@@ -44,6 +44,12 @@
     }
   ],
   "readingTime": 12,
-  "image": null,
+  "image": {
+    "src": "/images/posts/seroplex-temps-daction-et-effets-sur-lorganisme.webp",
+    "width": 1344,
+    "height": 896,
+    "alt": "Seroplex : temps d’action et effets sur l’organisme",
+    "generated": false
+  },
   "featured": false
 }

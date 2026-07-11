@@ -48,6 +48,12 @@
     }
   ],
   "readingTime": 12,
-  "image": null,
+  "image": {
+    "src": "/images/posts/orthophonie-troubles-langage.webp",
+    "width": 1536,
+    "height": 1024,
+    "alt": "Orthophonie et troubles du langage écrit chez l’enfant",
+    "generated": true
+  },
   "featured": false
 }

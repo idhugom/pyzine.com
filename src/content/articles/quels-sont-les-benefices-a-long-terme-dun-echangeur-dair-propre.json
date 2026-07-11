@@ -44,6 +44,12 @@
     }
   ],
   "readingTime": 11,
-  "image": null,
+  "image": {
+    "src": "/images/posts/quels-sont-les-benefices-a-long-terme-dun-echangeur-dair-propre.webp",
+    "width": 1344,
+    "height": 896,
+    "alt": "Quels sont les bénéfices à long terme d’un échangeur d’air propre ?",
+    "generated": false
+  },
   "featured": false
 }

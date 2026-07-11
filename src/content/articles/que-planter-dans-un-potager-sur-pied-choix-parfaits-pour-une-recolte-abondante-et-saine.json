@@ -48,6 +48,12 @@
     }
   ],
   "readingTime": 12,
-  "image": null,
+  "image": {
+    "src": "/images/posts/que-planter-dans-un-potager-sur-pied-choix-parfaits-pour-une-recolte-abondante-et-saine.webp",
+    "width": 1344,
+    "height": 896,
+    "alt": "Que planter dans un potager sur pied: choix parfaits pour une récolte abondante et saine",
+    "generated": false
+  },
   "featured": false
 }

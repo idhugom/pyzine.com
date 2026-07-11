@@ -44,6 +44,12 @@
     }
   ],
   "readingTime": 10,
-  "image": null,
+  "image": {
+    "src": "/images/posts/quels-sont-les-indices-permettant-de-deviner-le-sexe-du-bebe-grace-au-rythme-cardiaque-foetal.webp",
+    "width": 1500,
+    "height": 1000,
+    "alt": "Quels sont les indices permettant de deviner le sexe du bébé grâce au rythme cardiaque fœtal ?",
+    "generated": false
+  },
   "featured": false
 }

@@ -48,6 +48,12 @@
     }
   ],
   "readingTime": 12,
-  "image": null,
+  "image": {
+    "src": "/images/posts/quelles-sont-les-plantes-robustes-adaptees-a-un-balcon-et-faciles-a-entretenir.webp",
+    "width": 1600,
+    "height": 1067,
+    "alt": "Quelles sont les plantes robustes adaptées à un balcon et faciles à entretenir ?",
+    "generated": false
+  },
   "featured": false
 }

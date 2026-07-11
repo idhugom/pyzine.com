@@ -48,6 +48,12 @@
     }
   ],
   "readingTime": 13,
-  "image": null,
+  "image": {
+    "src": "/images/posts/peinture-sur-verre-sans-cuisson-techniques-et-astuces-pour-debutants.webp",
+    "width": 1344,
+    "height": 896,
+    "alt": "Peinture sur verre sans cuisson : techniques et astuces pour débutants",
+    "generated": false
+  },
   "featured": false
 }

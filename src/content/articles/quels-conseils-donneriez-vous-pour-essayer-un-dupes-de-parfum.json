@@ -44,6 +44,12 @@
     }
   ],
   "readingTime": 12,
-  "image": null,
+  "image": {
+    "src": "/images/posts/quels-conseils-donneriez-vous-pour-essayer-un-dupes-de-parfum.webp",
+    "width": 1600,
+    "height": 1066,
+    "alt": "Quels conseils donneriez-vous pour essayer un dupes de parfum ?",
+    "generated": false
+  },
   "featured": false
 }

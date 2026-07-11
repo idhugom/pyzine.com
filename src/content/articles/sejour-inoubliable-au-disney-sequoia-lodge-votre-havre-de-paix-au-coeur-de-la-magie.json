@@ -48,6 +48,12 @@
     }
   ],
   "readingTime": 12,
-  "image": null,
+  "image": {
+    "src": "/images/posts/sejour-inoubliable-au-disney-sequoia-lodge-votre-havre-de-paix-au-coeur-de-la-magie.webp",
+    "width": 1344,
+    "height": 896,
+    "alt": "Séjour inoubliable au disney sequoia lodge: votre havre de paix au cœur de la magie",
+    "generated": false
+  },
   "featured": false
 }

@@ -44,6 +44,12 @@
     }
   ],
   "readingTime": 12,
-  "image": null,
+  "image": {
+    "src": "/images/posts/rideau-air-chaud-environnements.webp",
+    "width": 1536,
+    "height": 1024,
+    "alt": "Rideau d’air chaud pour environnement sensible : Rideau d’air chaud conçu pour environnements sanitaires et techniques",
+    "generated": true
+  },
   "featured": false
 }

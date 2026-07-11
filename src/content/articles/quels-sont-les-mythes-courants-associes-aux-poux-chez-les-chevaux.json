@@ -48,6 +48,12 @@
     }
   ],
   "readingTime": 11,
-  "image": null,
+  "image": {
+    "src": "/images/posts/quels-sont-les-mythes-courants-associes-aux-poux-chez-les-chevaux.webp",
+    "width": 1536,
+    "height": 1024,
+    "alt": "Quels sont les mythes courants associés aux poux chez les chevaux ?",
+    "generated": true
+  },
   "featured": false
 }

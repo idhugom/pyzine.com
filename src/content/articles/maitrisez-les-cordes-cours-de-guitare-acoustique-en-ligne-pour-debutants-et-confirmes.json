@@ -48,6 +48,12 @@
     }
   ],
   "readingTime": 12,
-  "image": null,
+  "image": {
+    "src": "/images/posts/maitrisez-les-cordes-cours-de-guitare-acoustique-en-ligne-pour-debutants-et-confirmes.webp",
+    "width": 1344,
+    "height": 896,
+    "alt": "Maîtrisez les cordes: cours de guitare acoustique en ligne pour débutants et confirmés",
+    "generated": false
+  },
   "featured": false
 }

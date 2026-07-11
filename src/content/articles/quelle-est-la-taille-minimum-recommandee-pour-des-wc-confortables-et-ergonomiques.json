@@ -44,6 +44,12 @@
     }
   ],
   "readingTime": 10,
-  "image": null,
+  "image": {
+    "src": "/images/posts/quelle-est-la-taille-minimum-recommandee-pour-des-wc-confortables-et-ergonomiques.webp",
+    "width": 1500,
+    "height": 1000,
+    "alt": "Quelle est la taille minimum recommandée pour des wc confortables et ergonomiques ?",
+    "generated": false
+  },
   "featured": false
 }

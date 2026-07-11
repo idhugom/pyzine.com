@@ -48,6 +48,12 @@
     }
   ],
   "readingTime": 13,
-  "image": null,
+  "image": {
+    "src": "/images/posts/pourquoi-investir-dans-limmobilier-a-angers.webp",
+    "width": 1600,
+    "height": 1066,
+    "alt": "Pourquoi investir dans l’immobilier à Angers ?",
+    "generated": false
+  },
   "featured": false
 }

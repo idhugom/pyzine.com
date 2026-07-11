@@ -44,6 +44,12 @@
     }
   ],
   "readingTime": 10,
-  "image": null,
+  "image": {
+    "src": "/images/posts/mamcin-plus-belle-la-vie-decouvrez-les-derniers-rebondissements-de-la-serie.webp",
+    "width": 1344,
+    "height": 896,
+    "alt": "Mamcin Plus Belle La Vie : Découvrez les derniers rebondissements de la série !",
+    "generated": false
+  },
   "featured": false
 }

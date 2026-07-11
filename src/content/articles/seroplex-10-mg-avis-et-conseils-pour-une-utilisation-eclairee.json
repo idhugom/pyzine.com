@@ -47,6 +47,12 @@
     }
   ],
   "readingTime": 11,
-  "image": null,
+  "image": {
+    "src": "/images/posts/seroplex-10-mg-avis-et-conseils-pour-une-utilisation-eclairee.webp",
+    "width": 1344,
+    "height": 896,
+    "alt": "Seroplex 10 mg : avis et conseils pour une utilisation éclairée",
+    "generated": false
+  },
   "featured": false
 }

@@ -48,6 +48,12 @@
     }
   ],
   "readingTime": 12,
-  "image": null,
+  "image": {
+    "src": "/images/posts/lrsquohuile-de-lin-pour-le-bois-exterieur-avantages-et-mise-en-oeuvre.webp",
+    "width": 1344,
+    "height": 896,
+    "alt": "L&Rsquo;Huile de lin pour le bois extérieur : avantages et mise en œuvre",
+    "generated": false
+  },
   "featured": false
 }

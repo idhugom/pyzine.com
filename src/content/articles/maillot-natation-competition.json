@@ -44,6 +44,12 @@
     }
   ],
   "readingTime": 12,
-  "image": null,
+  "image": {
+    "src": "/images/posts/maillot-natation-competition.webp",
+    "width": 1344,
+    "height": 896,
+    "alt": "Maillot natation compétition : les modèles homologués pour la performance en bassin",
+    "generated": false
+  },
   "featured": false
 }

@@ -48,6 +48,12 @@
     }
   ],
   "readingTime": 13,
-  "image": null,
+  "image": {
+    "src": "/images/posts/quelles-sont-les-techniques-de-chasse-et-peche-sous-marine.webp",
+    "width": 1344,
+    "height": 896,
+    "alt": "Quelles sont les techniques de chasse et pêche sous-marine ?",
+    "generated": false
+  },
   "featured": false
 }

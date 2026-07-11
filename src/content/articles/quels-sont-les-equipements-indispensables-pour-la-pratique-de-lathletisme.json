@@ -48,6 +48,12 @@
     }
   ],
   "readingTime": 11,
-  "image": null,
+  "image": {
+    "src": "/images/posts/quels-sont-les-equipements-indispensables-pour-la-pratique-de-lathletisme.webp",
+    "width": 1344,
+    "height": 896,
+    "alt": "Quels sont les équipements indispensables pour la pratique de l’athlétisme ?",
+    "generated": false
+  },
   "featured": false
 }

@@ -44,6 +44,12 @@
     }
   ],
   "readingTime": 12,
-  "image": null,
+  "image": {
+    "src": "/images/posts/quels-accessoires-sont-indispensables-pour-pratiquer-le-velo-de-route.webp",
+    "width": 1600,
+    "height": 1066,
+    "alt": "Quels accessoires sont indispensables pour pratiquer le vélo de route ?",
+    "generated": false
+  },
   "featured": false
 }

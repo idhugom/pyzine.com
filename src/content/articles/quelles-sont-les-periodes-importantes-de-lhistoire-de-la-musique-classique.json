@@ -44,6 +44,12 @@
     }
   ],
   "readingTime": 13,
-  "image": null,
+  "image": {
+    "src": "/images/posts/quelles-sont-les-periodes-importantes-de-lhistoire-de-la-musique-classique.webp",
+    "width": 1600,
+    "height": 1067,
+    "alt": "Quelles sont les périodes importantes de l’histoire de la musique classique ?",
+    "generated": false
+  },
   "featured": false
 }

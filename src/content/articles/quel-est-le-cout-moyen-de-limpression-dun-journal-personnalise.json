@@ -48,6 +48,12 @@
     }
   ],
   "readingTime": 11,
-  "image": null,
+  "image": {
+    "src": "/images/posts/quel-est-le-cout-moyen-de-limpression-dun-journal-personnalise.webp",
+    "width": 1344,
+    "height": 896,
+    "alt": "Quel est le coût moyen de l’impression d’un journal personnalisé?",
+    "generated": false
+  },
   "featured": false
 }

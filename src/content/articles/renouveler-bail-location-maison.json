@@ -44,6 +44,12 @@
     }
   ],
   "readingTime": 11,
-  "image": null,
+  "image": {
+    "src": "/images/posts/renouveler-bail-location-maison.webp",
+    "width": 1536,
+    "height": 1024,
+    "alt": "Renouveler un bail de location immobilière pour une maison : procédure et délais",
+    "generated": true
+  },
   "featured": false
 }

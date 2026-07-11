@@ -48,6 +48,12 @@
     }
   ],
   "readingTime": 12,
-  "image": null,
+  "image": {
+    "src": "/images/posts/quelles-sont-les-meilleures-techniques-de-peche-au-coup-a-decouvrir.webp",
+    "width": 1600,
+    "height": 1066,
+    "alt": "Quelles sont les meilleures techniques de pêche au coup à découvrir ?",
+    "generated": false
+  },
   "featured": false
 }

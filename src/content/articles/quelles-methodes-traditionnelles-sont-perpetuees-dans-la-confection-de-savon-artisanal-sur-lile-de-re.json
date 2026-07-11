@@ -48,6 +48,12 @@
     }
   ],
   "readingTime": 11,
-  "image": null,
+  "image": {
+    "src": "/images/posts/quelles-methodes-traditionnelles-sont-perpetuees-dans-la-confection-de-savon-artisanal-sur-lile-de-re.webp",
+    "width": 1600,
+    "height": 1066,
+    "alt": "Quelles méthodes traditionnelles sont perpétuées dans la confection de savon artisanal sur l’île de Ré ?",
+    "generated": false
+  },
   "featured": false
 }

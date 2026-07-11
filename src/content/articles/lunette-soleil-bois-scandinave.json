@@ -48,6 +48,12 @@
     }
   ],
   "readingTime": 11,
-  "image": null,
+  "image": {
+    "src": "/images/posts/lunette-soleil-bois-scandinave.webp",
+    "width": 1536,
+    "height": 1024,
+    "alt": "Lunette de soleil en bois design scandinave : simplicité, élégance et fonctionnalité",
+    "generated": true
+  },
   "featured": false
 }

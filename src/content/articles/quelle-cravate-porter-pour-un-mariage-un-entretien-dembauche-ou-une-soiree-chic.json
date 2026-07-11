@@ -48,6 +48,12 @@
     }
   ],
   "readingTime": 12,
-  "image": null,
+  "image": {
+    "src": "/images/posts/quelle-cravate-porter-pour-un-mariage-un-entretien-dembauche-ou-une-soiree-chic.webp",
+    "width": 1344,
+    "height": 896,
+    "alt": "Quelle cravate porter pour un mariage, un entretien d’embauche ou une soirée chic ?",
+    "generated": false
+  },
   "featured": false
 }

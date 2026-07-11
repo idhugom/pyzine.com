@@ -48,6 +48,12 @@
     }
   ],
   "readingTime": 10,
-  "image": null,
+  "image": {
+    "src": "/images/posts/quels-documents-faut-il-conserver-apres-un-nettoyage.webp",
+    "width": 1344,
+    "height": 896,
+    "alt": "Quels documents faut-il conserver après un nettoyage ?",
+    "generated": false
+  },
   "featured": false
 }

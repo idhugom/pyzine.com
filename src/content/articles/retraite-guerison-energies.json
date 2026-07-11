@@ -44,6 +44,12 @@
     }
   ],
   "readingTime": 13,
-  "image": null,
+  "image": {
+    "src": "/images/posts/retraite-guerison-energies.webp",
+    "width": 1536,
+    "height": 1024,
+    "alt": "Retraite de guérison spirituelle et guérison énergétique : rééquilibrez vos énergies",
+    "generated": true
+  },
   "featured": false
 }

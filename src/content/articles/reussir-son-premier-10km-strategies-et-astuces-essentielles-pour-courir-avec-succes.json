@@ -48,6 +48,12 @@
     }
   ],
   "readingTime": 11,
-  "image": null,
+  "image": {
+    "src": "/images/posts/reussir-son-premier-10km-strategies-et-astuces-essentielles-pour-courir-avec-succes.webp",
+    "width": 1344,
+    "height": 896,
+    "alt": "Réussir son premier 10km: stratégies et astuces essentielles pour courir avec succès",
+    "generated": false
+  },
   "featured": false
 }

@@ -44,6 +44,12 @@
     }
   ],
   "readingTime": 12,
-  "image": null,
+  "image": {
+    "src": "/images/posts/montre-bois-ediiton-limitee.webp",
+    "width": 1536,
+    "height": 1024,
+    "alt": "Montre en bois en édition limitée : Pièce rare avec une montre en bois disponible en édition limitée",
+    "generated": true
+  },
   "featured": false
 }

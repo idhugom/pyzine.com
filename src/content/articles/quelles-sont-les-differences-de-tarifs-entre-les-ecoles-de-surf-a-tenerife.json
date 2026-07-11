@@ -48,6 +48,12 @@
     }
   ],
   "readingTime": 11,
-  "image": null,
+  "image": {
+    "src": "/images/posts/quelles-sont-les-differences-de-tarifs-entre-les-ecoles-de-surf-a-tenerife.webp",
+    "width": 1344,
+    "height": 896,
+    "alt": "Quelles sont les différences de tarifs entre les écoles de surf à Tenerife?",
+    "generated": false
+  },
   "featured": false
 }

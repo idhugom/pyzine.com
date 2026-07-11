@@ -44,6 +44,12 @@
     }
   ],
   "readingTime": 11,
-  "image": null,
+  "image": {
+    "src": "/images/posts/quels-restaurants-permettent-de-faire-des-reservations-pour-des-cadeaux.webp",
+    "width": 1344,
+    "height": 896,
+    "alt": "quels restaurants permettent de faire des réservations pour des cadeaux ?",
+    "generated": false
+  },
   "featured": false
 }

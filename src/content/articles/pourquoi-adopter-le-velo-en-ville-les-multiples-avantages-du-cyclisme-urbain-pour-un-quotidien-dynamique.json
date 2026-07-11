@@ -44,6 +44,12 @@
     }
   ],
   "readingTime": 12,
-  "image": null,
+  "image": {
+    "src": "/images/posts/pourquoi-adopter-le-velo-en-ville-les-multiples-avantages-du-cyclisme-urbain-pour-un-quotidien-dynamique.webp",
+    "width": 1344,
+    "height": 896,
+    "alt": "Pourquoi adopter le vélo en ville? les multiples avantages du cyclisme urbain pour un quotidien dynamique",
+    "generated": false
+  },
   "featured": false
 }

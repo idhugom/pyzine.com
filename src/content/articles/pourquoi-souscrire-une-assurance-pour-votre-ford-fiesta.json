@@ -48,6 +48,12 @@
     }
   ],
   "readingTime": 10,
-  "image": null,
+  "image": {
+    "src": "/images/posts/pourquoi-souscrire-une-assurance-pour-votre-ford-fiesta.webp",
+    "width": 1600,
+    "height": 1066,
+    "alt": "Pourquoi souscrire une assurance pour votre Ford Fiesta ?",
+    "generated": false
+  },
   "featured": false
 }

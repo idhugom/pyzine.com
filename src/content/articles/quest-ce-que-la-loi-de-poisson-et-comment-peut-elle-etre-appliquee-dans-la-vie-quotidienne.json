@@ -48,6 +48,12 @@
     }
   ],
   "readingTime": 12,
-  "image": null,
+  "image": {
+    "src": "/images/posts/quest-ce-que-la-loi-de-poisson-et-comment-peut-elle-etre-appliquee-dans-la-vie-quotidienne.webp",
+    "width": 1344,
+    "height": 896,
+    "alt": "Qu’est-ce que la loi de Poisson et comment peut-elle être appliquée dans la vie quotidienne ?",
+    "generated": false
+  },
   "featured": false
 }

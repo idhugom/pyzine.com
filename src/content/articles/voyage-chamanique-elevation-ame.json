@@ -48,6 +48,12 @@
     }
   ],
   "readingTime": 13,
-  "image": null,
+  "image": {
+    "src": "/images/posts/voyage-chamanique-elevation-ame.webp",
+    "width": 1536,
+    "height": 1024,
+    "alt": "Voyage chamanique pour l’élévation spirituelle et l’expansion de l’âme",
+    "generated": true
+  },
   "featured": false
 }

@@ -48,6 +48,12 @@
     }
   ],
   "readingTime": 12,
-  "image": null,
+  "image": {
+    "src": "/images/posts/quand-tailler-un-sapin-guide-pratique-pour-bien-entretenir-votre-arbre.webp",
+    "width": 1344,
+    "height": 896,
+    "alt": "Quand tailler un sapin : guide pratique pour bien entretenir votre arbre",
+    "generated": false
+  },
   "featured": false
 }

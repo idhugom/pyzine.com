@@ -44,6 +44,12 @@
     }
   ],
   "readingTime": 10,
-  "image": null,
+  "image": {
+    "src": "/images/posts/quel-est-le-cout-dun-parking-pres-de-laeroport.webp",
+    "width": 1344,
+    "height": 896,
+    "alt": "quel est le coût d’un parking près de l’aéroport?",
+    "generated": false
+  },
   "featured": false
 }

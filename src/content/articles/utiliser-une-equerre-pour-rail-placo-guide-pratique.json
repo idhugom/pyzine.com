@@ -48,6 +48,12 @@
     }
   ],
   "readingTime": 12,
-  "image": null,
+  "image": {
+    "src": "/images/posts/utiliser-une-equerre-pour-rail-placo-guide-pratique.webp",
+    "width": 1344,
+    "height": 896,
+    "alt": "Utiliser une équerre pour rail placo : guide pratique",
+    "generated": false
+  },
   "featured": false
 }

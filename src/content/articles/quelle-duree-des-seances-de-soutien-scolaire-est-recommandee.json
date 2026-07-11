@@ -48,6 +48,12 @@
     }
   ],
   "readingTime": 11,
-  "image": null,
+  "image": {
+    "src": "/images/posts/quelle-duree-des-seances-de-soutien-scolaire-est-recommandee.webp",
+    "width": 1344,
+    "height": 896,
+    "alt": "Quelle durée des séances de soutien scolaire est recommandée ?",
+    "generated": false
+  },
   "featured": false
 }

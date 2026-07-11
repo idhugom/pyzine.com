@@ -44,6 +44,12 @@
     }
   ],
   "readingTime": 11,
-  "image": null,
+  "image": {
+    "src": "/images/posts/mclouis-decouvrez-les-meilleurs-camping-cars-pour-vos-aventures.webp",
+    "width": 1344,
+    "height": 896,
+    "alt": "McLouis : découvrez les meilleurs camping-cars pour vos aventures",
+    "generated": false
+  },
   "featured": false
 }

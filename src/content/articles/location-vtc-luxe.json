@@ -48,6 +48,12 @@
     }
   ],
   "readingTime": 11,
-  "image": null,
+  "image": {
+    "src": "/images/posts/location-vtc-luxe.webp",
+    "width": 1536,
+    "height": 1024,
+    "alt": "Location voiture VTC de luxe : Location de voiture VTC de luxe pour prestations haut de gamme",
+    "generated": true
+  },
   "featured": false
 }

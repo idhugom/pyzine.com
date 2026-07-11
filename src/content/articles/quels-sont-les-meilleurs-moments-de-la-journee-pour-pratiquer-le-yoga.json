@@ -44,6 +44,12 @@
     }
   ],
   "readingTime": 10,
-  "image": null,
+  "image": {
+    "src": "/images/posts/quels-sont-les-meilleurs-moments-de-la-journee-pour-pratiquer-le-yoga.webp",
+    "width": 1344,
+    "height": 896,
+    "alt": "Quels sont les meilleurs moments de la journée pour pratiquer le yoga ?",
+    "generated": false
+  },
   "featured": false
 }

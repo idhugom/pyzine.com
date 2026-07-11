@@ -48,6 +48,12 @@
     }
   ],
   "readingTime": 12,
-  "image": null,
+  "image": {
+    "src": "/images/posts/techniques-pour-reussir-la-fermentation-du-kefir-de-fruits-a-domicile.webp",
+    "width": 1500,
+    "height": 1172,
+    "alt": "Techniques pour réussir la fermentation du kéfir de fruits à domicile",
+    "generated": false
+  },
   "featured": false
 }

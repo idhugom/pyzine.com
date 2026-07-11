@@ -44,6 +44,12 @@
     }
   ],
   "readingTime": 11,
-  "image": null,
+  "image": {
+    "src": "/images/posts/quels-sont-les-meilleurs-pieges-a-cafards-pour-le-jardin.webp",
+    "width": 1344,
+    "height": 896,
+    "alt": "Quels sont les meilleurs pièges à cafards pour le jardin ?",
+    "generated": false
+  },
   "featured": false
 }

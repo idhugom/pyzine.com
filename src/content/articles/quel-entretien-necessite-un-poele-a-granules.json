@@ -48,6 +48,12 @@
     }
   ],
   "readingTime": 12,
-  "image": null,
+  "image": {
+    "src": "/images/posts/quel-entretien-necessite-un-poele-a-granules.webp",
+    "width": 1600,
+    "height": 1066,
+    "alt": "Quel entretien nécessite un poêle à granulés ?",
+    "generated": false
+  },
   "featured": false
 }

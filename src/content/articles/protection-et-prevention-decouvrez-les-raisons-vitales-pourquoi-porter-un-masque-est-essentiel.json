@@ -44,6 +44,12 @@
     }
   ],
   "readingTime": 12,
-  "image": null,
+  "image": {
+    "src": "/images/posts/protection-et-prevention-decouvrez-les-raisons-vitales-pourquoi-porter-un-masque-est-essentiel.webp",
+    "width": 1344,
+    "height": 896,
+    "alt": "Protection et prévention : découvrez les raisons vitales pourquoi porter un masque est essentiel",
+    "generated": false
+  },
   "featured": false
 }

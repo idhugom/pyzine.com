@@ -48,6 +48,12 @@
     }
   ],
   "readingTime": 12,
-  "image": null,
+  "image": {
+    "src": "/images/posts/quelle-est-lefficacite-de-la-lumiere-pulsee-sur-differents-types-de-poils.webp",
+    "width": 848,
+    "height": 565,
+    "alt": "Quelle est l’efficacité de la lumière pulsée sur différents types de poils ?",
+    "generated": false
+  },
   "featured": false
 }

@@ -48,6 +48,12 @@
     }
   ],
   "readingTime": 13,
-  "image": null,
+  "image": {
+    "src": "/images/posts/transformez-vos-vieux-morceaux-de-bois-en-projets-creatifs-et-uniques.webp",
+    "width": 1600,
+    "height": 1066,
+    "alt": "Transformez vos vieux morceaux de bois en projets créatifs et uniques",
+    "generated": false
+  },
   "featured": false
 }

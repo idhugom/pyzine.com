@@ -44,6 +44,12 @@
     }
   ],
   "readingTime": 11,
-  "image": null,
+  "image": {
+    "src": "/images/posts/nettoyage-du-chauffe-cire-assurez-vous-une-utilisation-hygienique-et-sure.webp",
+    "width": 1344,
+    "height": 896,
+    "alt": "Nettoyage du chauffe-cire : assurez-vous une utilisation hygiénique et sûre",
+    "generated": false
+  },
   "featured": false
 }

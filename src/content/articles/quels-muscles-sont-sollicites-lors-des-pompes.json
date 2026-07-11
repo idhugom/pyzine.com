@@ -48,6 +48,12 @@
     }
   ],
   "readingTime": 11,
-  "image": null,
+  "image": {
+    "src": "/images/posts/quels-muscles-sont-sollicites-lors-des-pompes.webp",
+    "width": 1344,
+    "height": 896,
+    "alt": "Quels muscles sont sollicités lors des pompes ?",
+    "generated": false
+  },
   "featured": false
 }

@@ -44,6 +44,12 @@
     }
   ],
   "readingTime": 12,
-  "image": null,
+  "image": {
+    "src": "/images/posts/quels-exercices-specifiques-peuvent-aider-a-progresser-au-tennis-de-table.webp",
+    "width": 1344,
+    "height": 896,
+    "alt": "Quels exercices spécifiques peuvent aider à progresser au tennis de table ?",
+    "generated": false
+  },
   "featured": false
 }

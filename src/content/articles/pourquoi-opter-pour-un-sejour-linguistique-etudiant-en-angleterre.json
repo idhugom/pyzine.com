@@ -44,6 +44,12 @@
     }
   ],
   "readingTime": 11,
-  "image": null,
+  "image": {
+    "src": "/images/posts/pourquoi-opter-pour-un-sejour-linguistique-etudiant-en-angleterre.webp",
+    "width": 1344,
+    "height": 896,
+    "alt": "Pourquoi opter pour un séjour linguistique étudiant en Angleterre ?",
+    "generated": false
+  },
   "featured": false
 }

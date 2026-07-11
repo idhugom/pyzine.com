@@ -48,6 +48,12 @@
     }
   ],
   "readingTime": 12,
-  "image": null,
+  "image": {
+    "src": "/images/posts/materiel-orthophonie-maison.webp",
+    "width": 1536,
+    "height": 1024,
+    "alt": "Matériel d’orthophonie pour la maison : sélection et conseils d’utilisation",
+    "generated": true
+  },
   "featured": false
 }

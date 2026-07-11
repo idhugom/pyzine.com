@@ -48,6 +48,12 @@
     }
   ],
   "readingTime": 10,
-  "image": null,
+  "image": {
+    "src": "/images/posts/prise-de-poids-rapide-durant-la-grossesse-decryptage-des-causes-et-conseils-adaptes-aux-femmes-enceintes.webp",
+    "width": 1344,
+    "height": 896,
+    "alt": "Prise de poids rapide durant la grossesse : décryptage des causes et conseils adaptés aux femmes enceintes",
+    "generated": false
+  },
   "featured": false
 }

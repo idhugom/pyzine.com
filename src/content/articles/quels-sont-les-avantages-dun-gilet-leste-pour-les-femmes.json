@@ -48,6 +48,12 @@
     }
   ],
   "readingTime": 12,
-  "image": null,
+  "image": {
+    "src": "/images/posts/quels-sont-les-avantages-dun-gilet-leste-pour-les-femmes.webp",
+    "width": 1600,
+    "height": 1067,
+    "alt": "Quels sont les avantages d’un gilet lesté pour les femmes ?",
+    "generated": false
+  },
   "featured": false
 }

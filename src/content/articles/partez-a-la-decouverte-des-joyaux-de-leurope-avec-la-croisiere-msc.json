@@ -48,6 +48,12 @@
     }
   ],
   "readingTime": 12,
-  "image": null,
+  "image": {
+    "src": "/images/posts/partez-a-la-decouverte-des-joyaux-de-leurope-avec-la-croisiere-msc.webp",
+    "width": 1344,
+    "height": 896,
+    "alt": "Partez à la découverte des joyaux de l’Europe avec la croisière MSC",
+    "generated": false
+  },
   "featured": false
 }

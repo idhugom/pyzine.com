@@ -44,6 +44,12 @@
     }
   ],
   "readingTime": 12,
-  "image": null,
+  "image": {
+    "src": "/images/posts/quelles-assurances-pour-les-chevaux-participant-a-des-competitions-internationales.webp",
+    "width": 1344,
+    "height": 896,
+    "alt": "Quelles assurances pour les chevaux participant à des compétitions internationales ?",
+    "generated": false
+  },
   "featured": false
 }

@@ -44,6 +44,12 @@
     }
   ],
   "readingTime": 13,
-  "image": null,
+  "image": {
+    "src": "/images/posts/quels-sont-les-plus-grands-joueurs-de-lhistoire-du-handball.webp",
+    "width": 1344,
+    "height": 896,
+    "alt": "Quels sont les plus grands joueurs de l’histoire du handball ?",
+    "generated": false
+  },
   "featured": false
 }

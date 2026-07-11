@@ -44,6 +44,12 @@
     }
   ],
   "readingTime": 11,
-  "image": null,
+  "image": {
+    "src": "/images/posts/psycho-streaming-tiktok-fatigue.webp",
+    "width": 1344,
+    "height": 896,
+    "alt": "Psycho‑streaming sur TikTok Live : gérer stress et fatigue numérique lors de diffusions prolongées",
+    "generated": false
+  },
   "featured": false
 }

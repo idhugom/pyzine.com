@@ -44,6 +44,12 @@
     }
   ],
   "readingTime": 11,
-  "image": null,
+  "image": {
+    "src": "/images/posts/quelles-sont-les-matieres-utilisees-pour-fabriquer-un-facekini.webp",
+    "width": 1344,
+    "height": 896,
+    "alt": "quelles sont les matières utilisées pour fabriquer un facekini ?",
+    "generated": false
+  },
   "featured": false
 }

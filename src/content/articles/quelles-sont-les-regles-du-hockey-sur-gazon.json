@@ -48,6 +48,12 @@
     }
   ],
   "readingTime": 12,
-  "image": null,
+  "image": {
+    "src": "/images/posts/quelles-sont-les-regles-du-hockey-sur-gazon.webp",
+    "width": 1344,
+    "height": 896,
+    "alt": "Quelles sont les règles du hockey sur gazon ?",
+    "generated": false
+  },
   "featured": false
 }

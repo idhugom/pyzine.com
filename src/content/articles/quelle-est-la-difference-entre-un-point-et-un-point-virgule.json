@@ -48,6 +48,12 @@
     }
   ],
   "readingTime": 10,
-  "image": null,
+  "image": {
+    "src": "/images/posts/quelle-est-la-difference-entre-un-point-et-un-point-virgule.webp",
+    "width": 1344,
+    "height": 896,
+    "alt": "Quelle est la différence entre un point et un point-virgule ?",
+    "generated": false
+  },
   "featured": false
 }

@@ -48,6 +48,12 @@
     }
   ],
   "readingTime": 12,
-  "image": null,
+  "image": {
+    "src": "/images/posts/match-making-tiktok-shop.webp",
+    "width": 1344,
+    "height": 896,
+    "alt": "Match‑Making créateurs‑marques : bonnes pratiques pour trouver le partenaire idéal sur TikTok Shop",
+    "generated": false
+  },
   "featured": false
 }

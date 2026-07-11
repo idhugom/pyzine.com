@@ -48,6 +48,12 @@
     }
   ],
   "readingTime": 12,
-  "image": null,
+  "image": {
+    "src": "/images/posts/obtenez-votre-permis-b-en-un-temps-record-notre-avis-sur-la-formation-acceleree.webp",
+    "width": 1600,
+    "height": 1066,
+    "alt": "Obtenez votre permis B en un temps record : Notre avis sur la formation accélérée !",
+    "generated": false
+  },
   "featured": false
 }

@@ -48,6 +48,12 @@
     }
   ],
   "readingTime": 12,
-  "image": null,
+  "image": {
+    "src": "/images/posts/ou-trouver-des-assiettes-pas-cheres-sans-compromettre-la-qualite.webp",
+    "width": 1500,
+    "height": 908,
+    "alt": "Où trouver des assiettes pas chères sans compromettre la qualité ?",
+    "generated": false
+  },
   "featured": false
 }

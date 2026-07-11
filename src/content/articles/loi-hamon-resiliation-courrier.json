@@ -48,6 +48,12 @@
     }
   ],
   "readingTime": 11,
-  "image": null,
+  "image": {
+    "src": "/images/posts/loi-hamon-resiliation-courrier.webp",
+    "width": 1536,
+    "height": 1024,
+    "alt": "Loi Hamon lettre type résiliation : quels éléments inclure dans votre courrier à l’assureur ?",
+    "generated": true
+  },
   "featured": false
 }

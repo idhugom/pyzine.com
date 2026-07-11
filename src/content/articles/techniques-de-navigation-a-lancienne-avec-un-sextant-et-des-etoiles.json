@@ -44,6 +44,12 @@
     }
   ],
   "readingTime": 13,
-  "image": null,
+  "image": {
+    "src": "/images/posts/techniques-de-navigation-a-lancienne-avec-un-sextant-et-des-etoiles.webp",
+    "width": 1000,
+    "height": 667,
+    "alt": "Techniques de navigation à l’ancienne avec un sextant et des étoiles ?",
+    "generated": false
+  },
   "featured": false
 }

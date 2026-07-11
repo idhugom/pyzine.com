@@ -48,6 +48,12 @@
     }
   ],
   "readingTime": 14,
-  "image": null,
+  "image": {
+    "src": "/images/posts/vous-cherchez-une-maison-de-pecheur-a-vendre.webp",
+    "width": 1344,
+    "height": 896,
+    "alt": "Vous cherchez une maison de pêcheur à vendre ?",
+    "generated": false
+  },
   "featured": false
 }

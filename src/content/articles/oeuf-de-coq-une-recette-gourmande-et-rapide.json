@@ -48,6 +48,12 @@
     }
   ],
   "readingTime": 10,
-  "image": null,
+  "image": {
+    "src": "/images/posts/oeuf-de-coq-une-recette-gourmande-et-rapide.webp",
+    "width": 1344,
+    "height": 896,
+    "alt": "Oeuf de coq : une recette gourmande et rapide",
+    "generated": false
+  },
   "featured": false
 }

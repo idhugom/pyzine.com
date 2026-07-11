@@ -44,6 +44,12 @@
     }
   ],
   "readingTime": 12,
-  "image": null,
+  "image": {
+    "src": "/images/posts/loi-chatel-assurance-velo.webp",
+    "width": 1536,
+    "height": 1024,
+    "alt": "Loi Chatel assurance vélo : quelles solutions pour mettre fin à un contrat vélo ou VAE ?",
+    "generated": true
+  },
   "featured": false
 }

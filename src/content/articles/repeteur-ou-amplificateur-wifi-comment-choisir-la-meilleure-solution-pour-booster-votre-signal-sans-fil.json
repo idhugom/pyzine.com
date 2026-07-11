@@ -48,6 +48,12 @@
     }
   ],
   "readingTime": 12,
-  "image": null,
+  "image": {
+    "src": "/images/posts/repeteur-ou-amplificateur-wifi-comment-choisir-la-meilleure-solution-pour-booster-votre-signal-sans-fil.webp",
+    "width": 1344,
+    "height": 896,
+    "alt": "Répéteur ou amplificateur wifi : comment choisir la meilleure solution pour booster votre signal sans fil",
+    "generated": false
+  },
   "featured": false
 }

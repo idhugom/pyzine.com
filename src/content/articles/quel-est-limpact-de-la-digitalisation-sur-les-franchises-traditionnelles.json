@@ -44,6 +44,12 @@
     }
   ],
   "readingTime": 12,
-  "image": null,
+  "image": {
+    "src": "/images/posts/quel-est-limpact-de-la-digitalisation-sur-les-franchises-traditionnelles.webp",
+    "width": 1600,
+    "height": 1066,
+    "alt": "Quel est l’impact de la digitalisation sur les franchises traditionnelles ?",
+    "generated": false
+  },
   "featured": false
 }

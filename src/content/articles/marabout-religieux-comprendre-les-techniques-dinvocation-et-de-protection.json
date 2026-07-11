@@ -44,6 +44,12 @@
     }
   ],
   "readingTime": 12,
-  "image": null,
+  "image": {
+    "src": "/images/posts/marabout-religieux-comprendre-les-techniques-dinvocation-et-de-protection.webp",
+    "width": 1344,
+    "height": 896,
+    "alt": "Marabout religieux : comprendre les techniques d’invocation et de protection",
+    "generated": false
+  },
   "featured": false
 }

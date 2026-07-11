@@ -44,6 +44,12 @@
     }
   ],
   "readingTime": 11,
-  "image": null,
+  "image": {
+    "src": "/images/posts/telecharger-lecteur-mp3-samsung-profitez-de-votre-musique-ou-que-vous-soyez.webp",
+    "width": 1344,
+    "height": 896,
+    "alt": "Telecharger lecteur mp3 samsung: profitez de votre musique où que vous soyez!",
+    "generated": false
+  },
   "featured": false
 }

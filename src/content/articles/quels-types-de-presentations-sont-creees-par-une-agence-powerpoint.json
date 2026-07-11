@@ -48,6 +48,12 @@
     }
   ],
   "readingTime": 12,
-  "image": null,
+  "image": {
+    "src": "/images/posts/quels-types-de-presentations-sont-creees-par-une-agence-powerpoint.webp",
+    "width": 1600,
+    "height": 1066,
+    "alt": "Quels types de présentations sont créées par une agence PowerPoint ?",
+    "generated": false
+  },
   "featured": false
 }

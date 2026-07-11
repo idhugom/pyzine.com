@@ -43,6 +43,12 @@
     }
   ],
   "readingTime": 10,
-  "image": null,
+  "image": {
+    "src": "/images/posts/quelle-est-la-meilleure-disquette-damour-pour-surprendre-votre-partenaire.webp",
+    "width": 1344,
+    "height": 896,
+    "alt": "Quelle est la meilleure disquette d’amour pour surprendre votre partenaire ?",
+    "generated": false
+  },
   "featured": false
 }

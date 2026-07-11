@@ -48,6 +48,12 @@
     }
   ],
   "readingTime": 12,
-  "image": null,
+  "image": {
+    "src": "/images/posts/location-moto-rallye.webp",
+    "width": 1536,
+    "height": 1024,
+    "alt": "Location moto pour rallye : Louer une moto robuste et fiable pour participation à un rallye",
+    "generated": true
+  },
   "featured": false
 }

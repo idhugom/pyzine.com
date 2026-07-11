@@ -44,6 +44,12 @@
     }
   ],
   "readingTime": 11,
-  "image": null,
+  "image": {
+    "src": "/images/posts/quelle-est-limportance-de-comparer-les-offres-dassurance-habitation.webp",
+    "width": 1344,
+    "height": 896,
+    "alt": "Quelle est l’importance de comparer les offres d’assurance habitation ?",
+    "generated": false
+  },
   "featured": false
 }

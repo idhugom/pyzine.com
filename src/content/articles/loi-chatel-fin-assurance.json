@@ -48,6 +48,12 @@
     }
   ],
   "readingTime": 12,
-  "image": null,
+  "image": {
+    "src": "/images/posts/loi-chatel-fin-assurance.webp",
+    "width": 1536,
+    "height": 1024,
+    "alt": "Loi Chatel assurance mobile : comment mettre fin à une assurance pour smartphone ?",
+    "generated": true
+  },
   "featured": false
 }

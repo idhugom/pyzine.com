@@ -44,6 +44,12 @@
     }
   ],
   "readingTime": 10,
-  "image": null,
+  "image": {
+    "src": "/images/posts/pourquoi-nagui-quitte-tout-le-monde-veut-prendre-sa-place-les-raisons-derriere-la-decision-de-lanimateur-emblematique.webp",
+    "width": 1344,
+    "height": 896,
+    "alt": "Pourquoi Nagui quitte Tout le monde veut prendre sa place : les raisons derrière la décision de l’animateur emblématique",
+    "generated": false
+  },
   "featured": false
 }

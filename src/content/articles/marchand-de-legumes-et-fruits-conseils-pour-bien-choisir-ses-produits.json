@@ -44,6 +44,12 @@
     }
   ],
   "readingTime": 11,
-  "image": null,
+  "image": {
+    "src": "/images/posts/marchand-de-legumes-et-fruits-conseils-pour-bien-choisir-ses-produits.webp",
+    "width": 1344,
+    "height": 896,
+    "alt": "Marchand de légumes et fruits : conseils pour bien choisir ses produits",
+    "generated": false
+  },
   "featured": false
 }

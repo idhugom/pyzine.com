@@ -44,6 +44,12 @@
     }
   ],
   "readingTime": 10,
-  "image": null,
+  "image": {
+    "src": "/images/posts/quels-etaient-les-amours-de-ronsard.webp",
+    "width": 1344,
+    "height": 896,
+    "alt": "Quels étaient les amours de Ronsard ?",
+    "generated": false
+  },
   "featured": false
 }

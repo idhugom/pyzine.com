@@ -44,6 +44,12 @@
     }
   ],
   "readingTime": 11,
-  "image": null,
+  "image": {
+    "src": "/images/posts/solutions-tuyau-echappement-perce.webp",
+    "width": 1536,
+    "height": 1024,
+    "alt": "Tuyau d’échappement percé : quelles solutions efficaces adopter",
+    "generated": true
+  },
   "featured": false
 }

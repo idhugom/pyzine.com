@@ -48,6 +48,12 @@
     }
   ],
   "readingTime": 11,
-  "image": null,
+  "image": {
+    "src": "/images/posts/un-chatbot-ia-peut-il-remplacer-un-agent-humain.webp",
+    "width": 1344,
+    "height": 896,
+    "alt": "Un chatbot IA peut-il remplacer un agent humain ?",
+    "generated": false
+  },
   "featured": false
 }

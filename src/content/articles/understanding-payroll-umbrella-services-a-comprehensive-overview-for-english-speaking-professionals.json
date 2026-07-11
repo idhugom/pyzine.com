@@ -44,6 +44,12 @@
     }
   ],
   "readingTime": 13,
-  "image": null,
+  "image": {
+    "src": "/images/posts/understanding-payroll-umbrella-services-a-comprehensive-overview-for-english-speaking-professionals.webp",
+    "width": 1344,
+    "height": 896,
+    "alt": "Understanding payroll umbrella services: a comprehensive overview for english-speaking professionals",
+    "generated": false
+  },
   "featured": false
 }

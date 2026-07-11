@@ -44,6 +44,12 @@
     }
   ],
   "readingTime": 11,
-  "image": null,
+  "image": {
+    "src": "/images/posts/un-proxy-peut-il-ameliorer-la-securite-reseau.webp",
+    "width": 1344,
+    "height": 896,
+    "alt": "Un proxy peut-il améliorer la sécurité réseau ?",
+    "generated": false
+  },
   "featured": false
 }

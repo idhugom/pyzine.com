@@ -48,6 +48,12 @@
     }
   ],
   "readingTime": 11,
-  "image": null,
+  "image": {
+    "src": "/images/posts/location-voiture-flexible.webp",
+    "width": 1536,
+    "height": 1024,
+    "alt": "Location de voiture avec réservation flexible : Réserver une voiture avec horaires et options flexibles",
+    "generated": true
+  },
   "featured": false
 }

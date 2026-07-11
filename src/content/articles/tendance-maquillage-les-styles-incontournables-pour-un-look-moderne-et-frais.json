@@ -44,6 +44,12 @@
     }
   ],
   "readingTime": 11,
-  "image": null,
+  "image": {
+    "src": "/images/posts/tendance-maquillage-les-styles-incontournables-pour-un-look-moderne-et-frais.webp",
+    "width": 1344,
+    "height": 896,
+    "alt": "Tendance maquillage: les styles incontournables pour un look moderne et frais",
+    "generated": false
+  },
   "featured": false
 }

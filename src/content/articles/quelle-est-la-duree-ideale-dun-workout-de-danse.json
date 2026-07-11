@@ -44,6 +44,12 @@
     }
   ],
   "readingTime": 10,
-  "image": null,
+  "image": {
+    "src": "/images/posts/quelle-est-la-duree-ideale-dun-workout-de-danse.webp",
+    "width": 1344,
+    "height": 896,
+    "alt": "Quelle est la durée idéale d’un workout de danse?",
+    "generated": false
+  },
   "featured": false
 }

@@ -48,6 +48,12 @@
     }
   ],
   "readingTime": 12,
-  "image": null,
+  "image": {
+    "src": "/images/posts/maximiser-lefficacite-de-vos-reseaux-sociaux-grace-a-lab-testing.webp",
+    "width": 1500,
+    "height": 852,
+    "alt": "Maximiser l’efficacité de vos réseaux sociaux grâce à l’AB testing",
+    "generated": false
+  },
   "featured": false
 }

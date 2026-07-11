@@ -48,6 +48,12 @@
     }
   ],
   "readingTime": 11,
-  "image": null,
+  "image": {
+    "src": "/images/posts/peut-on-ajouter-de-la-cellulose-soufflee-a-une-isolation-existante.webp",
+    "width": 1600,
+    "height": 1066,
+    "alt": "Peut-on ajouter de la cellulose soufflée à une isolation existante ?",
+    "generated": false
+  },
   "featured": false
 }

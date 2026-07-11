@@ -48,6 +48,12 @@
     }
   ],
   "readingTime": 11,
-  "image": null,
+  "image": {
+    "src": "/images/posts/prix-assurance-jeune-conducteur-pour-votre-subaru.webp",
+    "width": 1344,
+    "height": 896,
+    "alt": "Prix assurance jeune conducteur pour votre Subaru",
+    "generated": false
+  },
   "featured": false
 }

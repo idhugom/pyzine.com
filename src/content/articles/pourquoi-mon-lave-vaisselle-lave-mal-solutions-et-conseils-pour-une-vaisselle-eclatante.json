@@ -48,6 +48,12 @@
     }
   ],
   "readingTime": 11,
-  "image": null,
+  "image": {
+    "src": "/images/posts/pourquoi-mon-lave-vaisselle-lave-mal-solutions-et-conseils-pour-une-vaisselle-eclatante.webp",
+    "width": 1344,
+    "height": 896,
+    "alt": "Pourquoi mon lave-vaisselle lave mal? solutions et conseils pour une vaisselle éclatante",
+    "generated": false
+  },
   "featured": false
 }

@@ -44,6 +44,12 @@
     }
   ],
   "readingTime": 10,
-  "image": null,
+  "image": {
+    "src": "/images/posts/y-a-t-il-une-communaute-dutilisateurs-pour-zeendoc.webp",
+    "width": 1344,
+    "height": 896,
+    "alt": "Y a-t-il une communauté d’utilisateurs pour Zeendoc ?",
+    "generated": false
+  },
   "featured": false
 }
